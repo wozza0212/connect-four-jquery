@@ -103,6 +103,7 @@ $('.board button').on('click', function(){
         $('h1').text(currentName + " You have won! Refresh your browser to play again!")
         $('h3').fadeOut('fast');
         $('h2').fadeOut('fast');
+        $('.board').fadeOut('10000')
     }
 
     currentPlayer = currentPlayer * -1;
