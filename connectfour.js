@@ -100,7 +100,7 @@ $('.board button').on('click', function(){
     changeColor(bottomAvail, col, currentColor);
 
     if (horizontalWinCheck() || verticalWinCheck() || diagonalWinCheck()) {
-        $('h1').text(currentName + " You have won!")
+        $('h1').text(currentName + " You have won! Refresh your browser to play again!")
         $('h3').fadeOut('fast');
         $('h2').fadeOut('fast');
     }
